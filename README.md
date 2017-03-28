@@ -5,8 +5,10 @@ Various tips and tricks
 ### Autoreload
 
 Type this at the beginnig of your script 
+
     %load_ext autoreload
     %autoreload 2
+    
 Or, if you want to always enable this settings, modify your IPython configuration file ~/.ipython/profile_default/ipython_config.py and append:
 
     c.InteractiveShellApp.extensions = ['autoreload']     
